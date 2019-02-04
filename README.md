@@ -24,6 +24,11 @@ Just playing around the core and the basics of React Native
 `$ npm install
 `
 
+**Redux**
+
+`$ npm install --save redux react-redux
+`
+
 ## Debug
 
 __http://localhost:8081/debugger-ui/__
