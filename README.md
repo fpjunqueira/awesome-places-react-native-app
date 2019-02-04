@@ -29,6 +29,14 @@ Just playing around the core and the basics of React Native
 `$ npm install --save redux react-redux
 `
 
+**Vector Icons**
+
+`$ npm install --save react-native-vector-icons
+`
+
+`$ react-native link
+`
+
 ## Debug
 
 __http://localhost:8081/debugger-ui/__
