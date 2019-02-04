@@ -13,16 +13,22 @@ export default class App extends Component {
   placeAddedHandler = placeName => {
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(placeName)
+        places: prevState.places.concat({
+            key: Math.random(),
+            name: placeName, 
+            image: {
+              uri: "http://www.cheapflightslab.com/wp-content/uploads/2017/01/Vancouver-Image.jpg"
+            }
+          })
       }
     });
   };
   
-  placeDeletedHandler = index => {
+  placeDeletedHandler = key => {
     this.setState(prevState => {
       return {
-        places: prevState.places.filter((place, i) => {
-          return index !== i;
+        places: prevState.places.filter((place) => {
+          return place.key !== key;
         })
       };
     });
