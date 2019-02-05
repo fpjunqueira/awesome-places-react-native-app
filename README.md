@@ -37,6 +37,14 @@ Just playing around the core and the basics of React Native
 `$ react-native link
 `
 
+**React Native Navigation**
+
+`$ npm install --save react-native-navigation@1
+`
+
+`$ react-native link
+`
+
 ## Debug
 
 __http://localhost:8081/debugger-ui/__
