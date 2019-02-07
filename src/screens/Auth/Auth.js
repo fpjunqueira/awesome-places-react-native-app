@@ -20,7 +20,7 @@ class AuthScreen extends Component {
                 source={backgroundImage}>
                 <View style={styles.container}>
                     <MainText>
-                        <HeadingText>Please Log In</HeadingText>
+                        <HeadingText style={{color: "#bbb"}}>Please Log In</HeadingText>
                     </MainText>
                     <ButtonWithBackground 
                         color="#29aaf4"
