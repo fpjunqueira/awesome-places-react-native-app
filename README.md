@@ -1,6 +1,6 @@
-# React Native Basics Playground
+# Awesome Places React Native Playground
 
-Just playing around the core and the basics of React Native
+Share images and the location of places you've liked to visit with a few clicks in this app.
 
 ## Commands 
 
