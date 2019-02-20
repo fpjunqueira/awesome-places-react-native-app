@@ -1,6 +1,6 @@
 # Awesome Places React Native Playground
 
-Share images and the location of places you've liked to visit with a few clicks in this app.
+Share pictures and the location of places you've liked to visit with a few clicks in this app.
 
 ## Commands 
 
