@@ -45,6 +45,12 @@ Share pictures and location of the places you've liked to visit with a few click
 `$ react-native link
 `
 
+**Google Maps**
+
+Running on a physical device:
+
+* Ensure that you have Google Play Services isntalled. (See react-native-maps docs)
+
 ## Debug
 
 __http://localhost:8081/debugger-ui/__
