@@ -2,21 +2,19 @@
 
 Share pictures and location of the places you've liked to visit with a few clicks in this app.
 
-## Commands 
+## Dependencies
+
+* Python
+* NodeJS
+* JDK (For Android)
+* Android SDK (For Android)
+* Some AVD loading (For Android)
+
+## Build
 
 **Install React Native CLI**
 
 `$ npm install -g react-native-cli
-`
-
-**Init a New Project**
-
-`$ react-native init ReactNativeBasicsPlayground
-`
-
-**Run Project**
-
-`$ react-native run-android
 `
 
 **Build Project**
@@ -24,12 +22,30 @@ Share pictures and location of the places you've liked to visit with a few click
 `$ npm install
 `
 
-**Redux**
+**Run Project**
+
+`$ react-native run-android
+`
+
+or 
+
+`$ npm run android
+`
+
+## Development Notes
+
+
+**Initializing a New Project**
+
+`$ react-native init AwesomePlacesReactNativeApp
+`
+
+**Adding Redux**
 
 `$ npm install --save redux react-redux
 `
 
-**Vector Icons**
+**Adding Vector Icons**
 
 `$ npm install --save react-native-vector-icons
 `
@@ -37,7 +53,7 @@ Share pictures and location of the places you've liked to visit with a few click
 `$ react-native link
 `
 
-**React Native Navigation**
+**Adding React Native Navigation**
 
 `$ npm install --save react-native-navigation@1
 `
@@ -45,7 +61,14 @@ Share pictures and location of the places you've liked to visit with a few click
 `$ react-native link
 `
 
-**Google Maps**
+**Adding Google Maps**
+
+`$ npm install react-native-maps --save
+`
+
+` $ react-native link react-native-maps
+`
+
 
 Running on a physical device:
 
